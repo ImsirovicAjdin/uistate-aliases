@@ -1,0 +1,13 @@
+node_modules/
+.git/
+.gitignore
+.DS_Store
+*.log
+test/
+tests/
+*.test.js
+*.spec.js
+.vscode/
+.idea/
+coverage/
+.nyc_output/
