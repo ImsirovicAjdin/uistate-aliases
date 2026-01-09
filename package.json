@@ -1,0 +1,41 @@
+{
+  "name": "@uistate/aliases",
+  "version": "1.0.0",
+  "description": "Ergonomic single-character and short-name DOM aliases for vanilla JavaScript - thin wrappers that stay close to the metal with zero abstraction penalty",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dom",
+    "dom-aliases",
+    "vanilla-js",
+    "ergonomic",
+    "lightweight",
+    "zero-dependency",
+    "framework-free",
+    "dom-utilities",
+    "shorthand",
+    "close-to-metal",
+    "uistate"
+  ],
+  "author": "Ajdin Imsirovic",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ImsirovicAjdin/uistate-aliases"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md"
+  ],
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "types": "./index.d.ts"
+    }
+  }
+}
